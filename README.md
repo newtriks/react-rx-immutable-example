@@ -2,6 +2,8 @@
 
 Example project setup with configuration out the box and a working dev api server.
 
+![image](https://cloud.githubusercontent.com/assets/31971/9246096/17e744b6-41a1-11e5-9500-cbb5ad6bb88e.png)
+
 1. [Webpack](http://webpack.github.io/) - module loader. Configured using the [hjs-webpack](https://github.com/HenrikJoreteg/hjs-webpack) helpers/presets.
 2. [webpack-dev-server](http://webpack.github.io/docs/webpack-dev-server.html) including [hot module replacement](https://github.com/webpack/docs/wiki/hot-module-replacement-with-webpack) (supports [react](https://github.com/gaearon/react-hot-loader) and css) - local server to run client application.
 3. [React](http://facebook.github.io/react/) - user interface development library.
