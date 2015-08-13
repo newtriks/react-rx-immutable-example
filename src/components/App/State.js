@@ -6,17 +6,17 @@ let searchResults = [];
 let selections = [].concat(List([]));
 let selectionsIndex = 0;
 
-const operation = (fn) => {
-    selections = selections.slice(0, selectionsIndex + 1);
-    const val = fn(selections[selectionsIndex]);
-    selections.push(val);
-    selectionsIndex++;
-    return val;
+function operation(fn) {
+  selections = selections.slice(0, selectionsIndex + 1);
+  const val = fn(selections[selectionsIndex]);
+  selections.push(val);
+  selectionsIndex++;
+  return val;
 }
 
 export default {
   setSearchText(text) {
-    return searchText = text;
+    searchText = text;
   },
   getSearchText() {
     return searchText || '';
